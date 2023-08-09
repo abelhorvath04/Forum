@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Signup() {
 
     return (
-        <div className="container card_container">
+        <div className="container card_container fade-in">
             <div className="row justify-content-center">
                 <div className="col-4 min_width_300">
                     <div className="card">
@@ -32,7 +32,7 @@ function Signup() {
                                 <Link to="/login">
                                     <input
                                         type="button"
-                                        value="Log in"
+                                        value="Sign up"
                                         className="btn btn-primary btn-lg btn_login fw-bold"
                                     />
                                 </Link>
