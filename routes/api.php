@@ -17,3 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::post('/register', 'UserController@register');
+
+Route::get('/csrf-token', function() {
+    return response()->json(['token' => csrf_token()]);
+});

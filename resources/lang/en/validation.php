@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Http\Request;
+
 return [
 
     /*
@@ -161,3 +163,4 @@ return [
     'attributes' => [],
 
 ];
+
